@@ -1,0 +1,102 @@
+body{
+    font-family: poppins;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.content-area{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+.content-area .main-tittle{
+    border-left: 3px solid #FF5959;
+}
+.content-area .main-tittle h1{
+    font-family: "Yeseva One", serif;
+
+    font-size: 60px;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.orange-color{
+    color: #FFAD5A;
+}
+.content-area p{
+    /* font-family: "Poppins", sans-serif; */
+
+    font-size: 18px;
+}
+.button{
+    margin-bottom: 20px;
+}
+.button a{
+    text-decoration: none;
+    background-color: #FF5959;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+}
+.image-area{
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-area .avatar img{
+width: 426px;
+}
+.mission{
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.catagory-area{
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.Mission img{
+    width: 50%;
+}
+.Mission {
+    font-size: 15px;
+    padding: 30px;
+}
+.mission-amet{
+    border-radius: 7px;
+    background-color: rgba(30, 150, 150, 0.192);
+}
+.Vission-amet{
+    border-radius: 7px;
+    background-color: rgba(197, 146, 245, 0.274);
+}
+.Goals-amet{
+    border-radius: 7px;
+    background-color: rgba(222, 184, 135, 0.329);
+}
+
+.develop-area .image img{
+    size: 150px;
+    width: 70%;
+}
+.develop-area {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+.develop-area h1{
+    font-size: 45px;
+}
+
